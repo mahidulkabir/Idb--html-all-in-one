@@ -19,22 +19,24 @@
 
       <br />
       <br />
-      Address: <br />
+      <b> Address:</b> <br />
       <textarea name="" id="">Your Permanent Address</textarea>
       <br /><br />
 
       <!-- This is for gender section  -->
-      Gender: <br />
-      <input type="radio" name="Gender" id="male" />
-      <label for="male">Male</label> <br />
-      <input type="radio" name="Gender" id="female" />
-      <label for="female">Female</label> <br />
-      <input type="radio" name="Gender" id="others" />
-      <label for="others">Others</label>
+      <div>
+        <b>Gender:</b> <br />
+        <input type="radio" name="Gender" id="male" />
+        <label for="male">Male</label> <br />
+        <input type="radio" name="Gender" id="female" />
+        <label for="female">Female</label> <br />
+        <input type="radio" name="Gender" id="others" />
+        <label for="others">Others</label>
+      </div>
 
       <br /><br />
       <!-- this is for subjects section  -->
-      Your Subjects: <br />
+      <b>Your Subjects:</b> <br />
       <input type="checkbox" name="Subjects" id="Bangla" />
       <label for="Bangla">Bangla</label> <br />
       <input type="checkbox" name="Subjects" id="English" />
@@ -43,6 +45,17 @@
       <label for="Math">Mathematics</label> <br />
       <input type="checkbox" name="Subjects" id="Science" />
       <label for="Science">Science</label>
+      <br /><br />
+
+      <!-- dropdown section  -->
+       <b> Your Degree:</b> <br />
+      <select name="Degree" id="SSC">
+        <option value="SSC">SSC</option>
+        <option value="HSC">HSC</option>
+        <option value="BSc">BSc.</option>
+        <option value="BSc">BCom.</option>
+        <option value="BSc">BA</option>
+      </select>
       <br /><br />
 
       <input type="reset" value="reset" />
