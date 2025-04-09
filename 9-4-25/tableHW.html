@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table hws</title>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>     
+<body>
+    <!-- Table 1 -->
+     <table>
+        <thead>
+            <th colspan="6">Time Table</th>
+        </thead>
+        <tbody>
+            <tr>    
+                <td rowspan="6">Hours</td>
+                <th>mon</th>
+                <th>tues</th>
+                <th>wed</th>
+                <th>thurs</th>
+                <th>fri</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <th colspan="5">Lunch</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">project</td>
+            </tr><tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                
+            </tr>
+        </tbody>
+     </table>
+
+     <!-- Table 2 -->
+      <table style="margin-top: 50px;">
+        <caption>HTML Table</caption>
+        <tbody>
+            <tr>
+                <td colspan="2">Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Cell 4</td>
+                <td>Cell 5</td>
+                <td>Cell 6</td>
+                <td>Cell 7</td>
+            </tr>
+            <tr>
+                <td colspan="3" >cell 8</td>
+            </tr>
+            <tr>
+                <td>cell 9</td>
+                <td colspan="2">cell 10</td>
+            </tr>
+        </tbody>
+      </table>
+</body>
+</html>
