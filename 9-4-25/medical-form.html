@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Form</title>
+    <style>
+      input,
+      textarea {
+        border: 1px solid rgb(134, 180, 233);
+      }
+      label {
+        color: rgb(22, 94, 107);
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(180, 245, 245); width: 30%; margin: auto; border-radius: 8px;">
+    <form style="background-color: rgb(251, 253, 253); margin-top: 50px">
+      <div
+        style="
+          background-color: rgb(1, 170, 119);
+          text-align: center;
+          padding: 5px 30px;
+          color: rgb(255, 255, 255);
+        "
+      >
+        <h3>Patient Details</h3>
+        <p>Record of a patient's medical details</p>
+      </div>
+      <div style="padding: 10px 20px; margin: auto; width: 80%">
+        <div>
+          <label for="">Consulting nurse</label> <br /> <br>
+          <input type="text" placeholder="First Name" style="width: 40%;"/> &nbsp; <input type="text" placeholder="Last Name"/>
+        </div>
+        <div>
+          <label for="">Patient's name</label> <br /> <br>
+          <input type="text" placeholder="First Name" style="width: 40%;"/> &nbsp; <input type="text" placeholder="Last Name"/>
+        </div>
+        <div>
+          <label for="">Patient's health issue</label> <br />
+          <textarea name="" id=""></textarea>
+        </div>
+        <div>
+          <label for="">Patient's response to medication </label> <br />
+          <textarea name="" id=""></textarea>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
