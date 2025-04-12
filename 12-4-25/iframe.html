@@ -7,18 +7,27 @@
   </head>
   <body>
     <h1>This is iframe</h1>
-    <div >
-      <div style="background-color: rgb(224, 219, 219); width: 20%; float: left; height: 400px;">
-        <ul>
-          <li><a href="form.html" target="iframe">1st Form</a></li>
-          <li><a href="table2.html" target="iframe">1st Table</a></li>
-          <li><a href="new-table.html" target="iframe">2nd Table </a></li>
-        </ul>
+    <div>
+      <div
+        style="
+          background-color: rgb(224, 219, 219);
+          width: 20%;
+          float: left;
+          height: 400px;
+        "
+      >
+        <div style="margin: 20px 10px; ">
+          <button><a href="form.html" target="iframe" style="text-decoration: none; ">1st Form</a></button>
+          <button style="margin: 5px 0; "><a href="table2.html" target="iframe" style="text-decoration: none;">1st Table</a></button>
+          <button style="text-decoration: none;">
+            <a href="new-table.html" target="iframe" style="text-decoration: none;">2nd Table </a>
+          </button>
+        </div>
       </div>
       <iframe
         src="form.html"
         frameborder="0"
-        style="background-color: bisque; width: 75%; height: 400px;"
+        style="background-color: bisque; width: 75%; height: 400px"
         name="iframe"
       ></iframe>
 
