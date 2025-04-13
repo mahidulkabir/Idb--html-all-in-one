@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+    <style>
+        
+    </style>
+  </head>
+  <body style="background-color: aliceblue;">
+    <fieldset style=" margin: 150px 500px; border-radius: 10px; background-color: rgb(178, 209, 236);">
+      <form style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
+        <div>
+          <!-- id part  -->
+          <label for="id">Your ID:</label>
+          <input type="text" name="id" id="id" />
+        </div>
+        <!-- name part  -->
+        <div>
+          <label for="name">Your Name:</label>
+          <textarea name="name" id="name"></textarea>
+        </div>
+        <div>
+          <!-- option part  -->
+          <label for="round"> Round : </label>
+          <select name="round" id="round">
+            <option value="option">Select Round</option>
+            <option value="62">62</option>
+            <option value="63">63</option>
+            <option value="64">64</option>
+            <option value="65">65</option>
+          </select>
+        </div>
+
+        <div>
+          <!-- radio gender part  -->
+          <label for="gender"> Gender:</label>
+          <input type="radio" name="Gender" id="male" />
+          <label for="male">Male</label>
+
+          <input type="radio" name="Gender" id="Female" />
+          <label for="Female">Female</label>
+
+          <input type="radio" name="Gender" id="other" />
+          <label for="other">Others</label>
+        </div>
+        <div>
+          <!-- checkbox option  -->
+          <label for="">Education:</label>
+          <input type="checkbox" name="Edu" id="SSC" />
+          <label for="SSC"> SSC</label>
+          <input type="checkbox" name="Edu" id="HSC" />
+          <label for="HSC"> HSC</label>
+          <input type="checkbox" name="Edu" id="Grad" />
+          <label for="Grad"> Graduate</label>
+            <div>
+                 <input type="submit" value="Submit Data" />
+          <input type="reset" value="Reset Data " />
+            </div>
+         
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
